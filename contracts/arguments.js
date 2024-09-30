@@ -1,0 +1,1 @@
+module.exports = ["SimpleToken", "STK", 1000000000000000000000];

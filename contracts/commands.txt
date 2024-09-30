@@ -1,0 +1,6 @@
+npx hardhat run scripts/deploy.ts --network scrollSepolia
+npx hardhat verify --network scrollSepolia 0xF3A8C7a9746b3590221322a89C8C965b46248Ee8 "SimpleToken" "STK" 1000000000000000000000
+
+npx hardhat verify --network scrollSepolia --constructor-args arguments.js 0xF3A8C7a9746b3590221322a89C8C965b46248Ee8
+
+npx hardhat verify --network scrollSepolia 0x70e8d72Fd4f889D21f349EE36D9acEF2629D17C7 "https://play-lh.googleusercontent.com/HRSGysWcE21MNwY04GaCK3v9mriPpH9GQODRc8X3vxobl9asED0cKRAIzIMlHVCiAQ"
